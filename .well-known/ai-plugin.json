@@ -1,18 +1,18 @@
 {
     "schema_version": "v1",
-    "name_for_human": "TODO List (no auth)",
-    "name_for_model": "todo",
-    "description_for_human": "Manage your TODO list. You can add, remove and view your TODOs.",
-    "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
+    "name_for_human": "Inegi Stats",
+    "name_for_model": "InegiStats",
+    "description_for_human": "Get current and historical stats from Inegi.",
+    "description_for_model": "Get current and historical stats from Inegi. Always display results using markdown tables.",
     "auth": {
-      "type": "none"
+        "type": "none"
     },
     "api": {
-      "type": "openapi",
-      "url": "http://localhost:5003/openapi.yaml",
+        "type": "openapi",
+        "url": "PLUGIN_HOSTNAME/openapi.yaml"
     },
-    "logo_url": "http://localhost:5003/logo.png",
-    "contact_email": "legal@example.com",
-    "legal_info_url": "http://example.com/legal"
-  }
+    "logo_url": "PLUGIN_HOSTNAME/logo.png",
+    "contact_email": "support@example.com",
+    "legal_info_url": "https://example.com/legal"
+}
   
